@@ -107,6 +107,8 @@ set -g mouse on
 set -g focus-events on
 set -as terminal-features ",xterm-256color:RGB"
 setw -g aggressive-resize on
+set -s set-clipboard on
+set -g allow-passthrough on
 
 # ===== KEY BINDINGS =====
 unbind C-b
